@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Folha de Estilo -->
+    <link rel="stylesheet" href="./src/styles/main.css" />
+
+    <title>Detona Ralph</title>
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <div class="pages page1">
+        <section id="pageGame" class="wrap">
+          <div class="mainLogo">
+            <img
+              src="./src/imgs/logotipoRalph.png"
+              alt="Imagem do jogo doRalph Wreck, o nomeWreck-it Ralph e entros  nomes a cara dpersonagem   formando logotipo."
+            />
+          </div>
+  
+          <div class="mainImg">
+            <img
+              src="./src/imgs/Ralph-2.png"
+              alt="Ralphapresentando a telainicial, com braçoabertos  vistindo a roupdo  personagem, camisvermelha  com um macacano tom  avermelhadescuro."
+            />
+          </div>
+  
+          <button id="trocarPagina" onclick="init()">Vamos Jogar!</button>
+        </section>
+  
+        <div class="pages page2">
+          <div class="">
+            <nav id="menu" class="container">
+              <div class="logo">
+                <img
+                  src="./src/imgs/logotipoRalph.png"
+                  alt="Logotipo do Jogo Ralph"
+                />
+              </div>
+
+
+                <div class="fullscreen-menu-container js-menu-container">
+
+                  <a class="menu-button js-menu-close">
+                  <div class="menu-icon is-active">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </a>
+          
+                <div class="fullscreen-menu">
+          
+                  <div class="fullscreen-menu__image-container"></div>
+          
+                  <h1 class="fullscreen-menu__title">
+                    Fala player! fique a vontade para me seguir nas minhas redes.
+                  </h1>
+          
+                  <p>
+                    Projeto desenvolvido para fins de portifolio pessoal.
+                  </p>
+
+                  <a target="_blank" href="https://www.linkedin.com/in/josemarques-freitas/" class="social-button--gmail">
+                  </a>
+
+                  
+                  <a target="_blank" href="https://github.com/Josemarques-Freitas" class="social-button--gitHub">
+                  </a>
+                  
+                  <a target="_blank" href="https://www.linkedin.com/in/josemarques-freitas/" class="social-button--linkedin">
+                  </a>
+                </div>
+          
+                </div>
+          
+              <article class="card">
+          
+                <aside>
+                  <a class="menu-button js-menu-button">
+                    <div class="menu-icon">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </a>
+                </aside>
+          
+              </article>
+            </nav>
+
+
+
+            <section id="gridMenu">
+              <div class="cards">
+                <div class="cardBoxWindow box" id="box1"></div>
+              </div>
+  
+              <div class="cards">
+                <div class="cardBoxWindow box" id="box2"></div>
+              </div>
+  
+              <div class="cards">
+                <div class="cardBoxWindow box" id="box3"></div>
+              </div>
+  
+              <div class="cards">
+                <div class="cardBoxWindow box wreck" id="box4"></div>
+              </div>
+  
+              <div class="cards">
+                <div class="cardBoxWindow box" id="box5"></div>
+              </div>
+  
+              <div class="cards">
+                <div class="cardBoxWindow box" id="box6"></div>
+              </div>
+
+              <div class="cards">
+                <div class="cardBoxWindow box" id="box7"></div>
+              </div>
+
+              <div class="cards">
+                <div class="cardBoxWindow box" id="box8"></div>
+              </div>
+
+              <div class="cards">
+                <div class="cardBoxWindow box" id="box9"></div>
+              </div>
+            </section>
+  
+            <section id="infoRalph" class="container">
+              <div class="wrap">
+                <h2>Time Left</h2>
+                <h2 id="time-left">0</h2>
+              </div>
+  
+              <div class="wrap">
+                <h2>Your Score</h2>
+                <h2 id="score">0</h2>
+              </div>
+  
+              <div class="wrap playerPhoto">
+                <p>Lv<h1 id="LevelP">1</h1></p>
+                <img
+                  class=""
+                  src="./src/imgs/foto-do-jogador-Ralph.png"
+                  alt="Foto do jogador Ralph"
+                />
+              </div>
+            </section>
+  
+            <footer class="container">
+              <p>Feito por @ Franklin Macedo</p>
+            </footer>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script defer src="./src/scripts/engine.js"></script>
+    <script src="./src/scripts/pages.js"></script>
+  </body>
+</html>

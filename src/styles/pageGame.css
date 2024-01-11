@@ -1,0 +1,20 @@
+
+.mainLogo img {
+  margin-top: .938rem;
+  width: 5.625rem;
+  margin: auto;
+}
+
+.mainImg img {
+  width: 22.75rem;
+  margin: auto;
+}
+
+#trocarPagina {
+  background-color: var(--secondary-color);
+  color: var(--color-logo);
+  width: 18.75rem;
+  height: 3.5rem;
+  border-radius: 27px;
+  z-index: 4;
+}

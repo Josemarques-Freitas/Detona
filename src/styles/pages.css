@@ -1,0 +1,337 @@
+/* GENERAL PAGE TRANSITION */
+
+a {
+  text-decoration: none;
+}
+
+/* .current {
+  opacity: 1 !important;
+  position: absolute;
+  z-index: 3 !important;
+} */
+.wrapper {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 560px;
+}
+
+.pages {
+  opacity: 1;
+  transition: opacity 0.7s ease;
+  z-index: 1;
+  height: 100%;
+  position: absolute;
+  width: 560px;
+  color: #fff;
+  text-align: center;
+}
+.page1 {
+  z-index: 2;
+}
+.page2 {
+  z-index: 3;
+  opacity: 0;
+  padding: 2.438rem 0;
+}
+
+/* #page1,
+#page2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  width: 23.438rem;
+  height: 50.75rem;
+  margin: auto;
+} */
+
+#pageGame {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 5.125rem;
+  margin: auto;
+  background-color: var(--color-bg);
+  padding: 2.438rem 0;
+  align-items: center;
+}
+
+.move-from-top-entrada {
+  animation: moveFromTopEntrada 0.7s ease both;
+}
+.move-from-top-saida {
+  animation: moveFromTopSaida 0.7s ease both;
+}
+
+@keyframes moveFromTopEntrada {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes moveFromTopSaida {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* ########################### */
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__header,
+.card__footer {
+  flex: 0 0 auto; /* Don't grow, don't shrink, automaticsize (basis) */
+}
+
+.card__footer {
+  margin-top: 2rem;
+  text-align: right;
+}
+
+.card__body {
+  flex: 1 1 auto;
+}
+
+/* @media only screen and (min-width: 53rem) {
+
+	.card {
+		flex-direction: row; 
+		min-height: 60vh;
+	}
+
+		.card__image-container {
+			flex: 0 1 45%; 
+			max-height: inherit;
+		}
+
+		.card__contents {
+			flex: 1 1 55%;
+			padding: 3rem; 
+		}
+
+} */
+
+/* Social icons based on: codepen.io/matchboxhero/pen/onzkC */
+
+/* [class^="icon--"] {
+    font-family: 'FontAwesome'; 
+    font-style: normal; 
+} */
+
+[class^='social-button'] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.5rem;
+  width: 1.5rem;
+  font-size: 0.4rem;
+  color: var(--font-primary);
+  border-radius: 27%;
+  text-decoration: none;
+  transition: 150ms ease-in-out;
+  background-color: var(--secondary-color);
+  margin-right: 0.1rem;
+}
+
+.social-button--linkedin {
+  background-image: url("https://img.icons8.com/windows/256/linkedin-2.png");
+  background-size: cover;
+
+  
+}
+
+.social-button--gmail {
+  background-image: url("https://img.icons8.com/windows/256/gmail.png");
+  background-size: cover;
+}
+
+.social-button--gitHub {
+  background-image: url("https://img.icons8.com/windows/256/github.png");
+  background-size: cover;
+}
+
+.social-button--linkedin:hover {
+  background-image: url("../imgs/socialIcones/icons8-linkedin-2.gif");
+  background-size: cover;
+}
+
+.social-button--gmail:hover {
+  background-image: url("../imgs/socialIcones/icons8-gmail.gif");
+  background-size: cover;
+}
+
+.social-button--gitHub:hover {
+  background-image: url("../imgs/socialIcones/icons8-github.gif");
+  background-size: cover;
+}
+
+
+/*
+
+	Start New Code For Menu
+
+*/
+
+/* Menu Button */
+
+.menu-button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 3rem;
+  height: 3rem;
+  border-radius: 27%;
+  cursor: pointer;
+}
+
+.menu-button:hover,
+.menu-button:focus {
+  background-color: var(--color-logo);
+}
+.menu-button:active {
+  background-color: var(--secondary-color);
+  transition: 0.3s;
+}
+
+.menu-icon {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.menu-icon span {
+  position: absolute;
+  height: 0.125rem;
+  width: 100%;
+  background-color: var(--secondary-color);
+  transition: background-color 500ms ease-in-out;
+}
+
+.menu-icon span:nth-child(1) {
+  top: 0.0625rem;
+}
+
+.menu-icon span:nth-child(2) {
+  top: 0.625rem;
+}
+
+.menu-icon span:nth-child(3) {
+  top: 1.25rem;
+}
+
+.menu-button:hover span,
+.menu-button:focus span,
+.menu-button:active span {
+  background: var(--font-primary);
+}
+
+.menu-icon.is-active span:nth-child(1) {
+  opacity: 0;
+}
+
+.menu-icon.is-active span:nth-child(2) {
+  transform: rotate(45deg);
+}
+
+.menu-icon.is-active span:nth-child(3) {
+  top: 0.625rem;
+  transform: rotate(-45deg);
+}
+
+/* Fullscreen Menu */
+
+.fullscreen-menu-container {
+  position: absolute;
+  z-index: 5;
+  width: fit-content;
+  height: 100vh;
+  overflow: scroll visible;
+  overflow-x: hidden;
+  margin-left: -50px;
+  background-color: var(--color-logo);
+  opacity: 0;
+  pointer-events: none;
+  transition: top 500ms ease-in, opacity 300ms ease-in;
+}
+
+.fullscreen-menu-container.is-open {
+  opacity: 1;
+  top: 0;
+  pointer-events: auto;
+}
+
+.fullscreen-menu-container .menu-button {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+}
+
+.fullscreen-menu {
+  text-align: center;
+  max-width: 62rem;
+  padding: 6rem 2rem 4rem;
+  width: 100%;
+}
+
+.fullscreen-menu__image-container {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-image: url('https://source.unsplash.comrandom');
+  background-size: cover;
+  background-position: center center;
+  margin: 0 auto 1.5rem;
+}
+
+.fullscreen-menu__title {
+  max-width: 30rem;
+  margin: 0 auto;
+  color: var(--secondary-color);
+}
+
+.fullscreen-menu p {
+  margin: 2.5rem 0 8.5rem;
+
+}
+
+
+
+.fullscreen-menu__nav {
+  margin: 3rem 0;
+}
+
+
+.fullscreen-menu__nav a {
+  display: block;
+  font-size: 1.4rem;
+  padding: 1rem;
+  color: #a2a2a2;
+  text-decoration: none;
+  transition: color 300ms ease-in;
+}
+
+.fullscreen-menu__nav a:hover,
+.fullscreen-menu__nav a:focus,
+.fullscreen-menu__nav a:active {
+  color: var(--secondary-color);
+}
+
+.fullscreen-menu [class^='social-button'] {
+  margin: 0 0.5rem;
+  height: 3.75rem;
+  width: 3.75rem;
+  font-size: 1.5rem;
+}

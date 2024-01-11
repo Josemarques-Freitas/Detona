@@ -1,0 +1,91 @@
+@import url("./global.css");
+@import url("./pageGame.css");
+
+#menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2.5rem;
+}
+.logo img {
+  width: 4.821rem;
+}
+.menuBtn img {
+  width: 1.75rem;
+}
+
+/* Bloco Princinpal */
+#gridMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  width: auto;
+  gap: .938rem;
+  padding: 1.688rem 1.688rem;
+}
+
+.cardBoxWindow {
+  width: 9.5rem;
+  height: 9.875rem;
+  background-image: url("../imgs/cardBoxWindow.png");
+  background-size: cover;
+  z-index: 1;
+}
+
+.wreck {
+  background-image: url("../imgs/wreck.png");
+  background-size: contain;
+  z-index: 2;
+
+}
+
+
+/* Bloco Player */
+#infoRalph {
+  display: flex;
+  height: 5.5rem;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+  margin: auto;
+}
+#infoRalph h1 {
+  font-size: x-large;
+  color: var(--secondary-color );
+}
+#infoRalph h2 {
+  font-size: small;
+}
+#infoRalph h2:nth-child(2) {
+  font-size: medium;
+  margin-top: .5rem;
+  color: var(--secondary-color);
+}
+#infoRalph .playerPhoto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#infoRalph .playerPhoto img {
+  width: 3.063rem;
+  height: 3.063rem;
+}
+footer p {
+  display: flex;
+  justify-content: center;
+  font-size: xx-small;
+  color: var(--color-logo);
+  margin-bottom: 15px;
+}
+
+
+
+
+
