@@ -44,10 +44,10 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-<a href = "frankmcdias@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23931?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a><a href="https://www.linkedin.com/in/franklinmacedodias" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+<a href = "seujosemar@hotmail.com"><img src="https://img.shields.io/badge/-Gmail-%23931?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a><a href="https://www.linkedin.com/in/josemarques-freitas/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 
 
-Project Link:<br><a href="https://github.com/Frankdias92/Primeiro-Game-Detona-Ralph" target="_blank"><img src="https://img.shields.io/badge/-Game%20Detona%20Ralph-000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
+Project Link:<br><a href="https://github.com/Markim-Freitas/Detona-Ralph" target="_blank"><img src="https://img.shields.io/badge/-Game%20Detona%20Ralph-000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
