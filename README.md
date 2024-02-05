@@ -3,7 +3,7 @@
 # Projeto "Game-DetonaRalph"
 
 <div align="center">
-  <a href="https://www.figma.com/file/3drzJuNX12azkBNFzed6uH/Ralph-Game-Project?type=design&node-id=34-90&mode=design">
+  <a href="https://github.com/Markim-Freitas/Detona-Ralph">
     <img src="./src/imgs/preview/Cover.png" alt="Logo">
   </a>
 </div>
