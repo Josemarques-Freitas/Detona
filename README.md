@@ -55,15 +55,11 @@ Project Link:<br><a href="https://github.com/Markim-Freitas/Detona-Ralph" target
 <!-- ACKNOWLEDGMENTS -->
 ## Agradecimentos
 
-<img src="https://avatars.githubusercontent.com/u/730492?v=4" alt="GitHub" style="width:40px; height:40px;"/> ![Venilton] 
-
-<img src="https://avatars.githubusercontent.com/u/2331058?v=4" alt="GitHub" style="width:40px; height:40px;"/> ![Rafa Skoberg] 
+<img src="https://avatars.githubusercontent.com/u/730492?v=4" alt="GitHub" style="width:40px; height:40px;"/> ![Venilton]  
 
 <img src="https://avatars.githubusercontent.com/u/97471199?v=4" alt="GitHub" style="width:40px; height:40px;"/> ![Elidiana Andrade] 
 
 <img src="https://avatars.githubusercontent.com/u/55519539?v=4" alt="GitHub" style="width:40px; height:40px;"/> ![Michele Ambrosio]
-
-<img src="https://avatars.githubusercontent.com/u/3266640?v=4" alt="GitHub" style="width:40px; height:40px;"/> ![Renan Johannsen] 
 
 [![DIO][DIO.com]][DIO.url] [![Template][Template.com]][Template.url]
 
